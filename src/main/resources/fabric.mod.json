@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bcs",
+  "version": "${version}",
+  "name": "BetterCoordsCopy",
+  "description": "Makes the F3 + C Hotkey only copy the necessary coordinates",
+  "authors": [
+    "hustender"
+  ],
+  "contact": {
+    "sources": "https://github.com/hustender/BetterCoordsCopy",
+    "issues": "https://github.com/hustender/BetterCoordsCopy/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/bcs/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.hustender.bcs.Main"
+    ]
+  },
+  "mixins": [
+    "bcs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

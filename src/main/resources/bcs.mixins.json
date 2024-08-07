@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.hustender.bcs.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "CopyCoordinatesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
